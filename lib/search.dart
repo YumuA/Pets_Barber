@@ -52,12 +52,19 @@ class _SearchState extends State<Search> {
               children: searchData.map((item) {
                 return Card(
                   child: ListTile(
-                    title: Text('Nombre: ${item['nombre']}'),
-                    subtitle: Text('Raza: ${item['raza']}'),
-                    // Agrega más datos según la estructura de tu API
+                    title: Text('${item['mascota_nombre']}'),
+                    subtitle: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Raza: ${item['raza']}'),
+                        Text('Dueño: ${item['Dueño Nombre']}'),
+                        Text('Telefono: ${item['telefono']}')
+                      ],
+                    ),
                   ),
                 );
               }).toList(),
+
             )
           else
             const Text(

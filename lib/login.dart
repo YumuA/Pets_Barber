@@ -21,7 +21,7 @@ class _LoginState extends State<Login> {
         children: <Widget>[
           const CircleAvatar(
             radius: 80,
-            backgroundImage: AssetImage('assets/img/bocchi_user.jpg'),
+            backgroundImage: AssetImage('assets/img/foxy.jpeg'),
           ),
           Padding(
             padding: const EdgeInsets.all(12.0),
