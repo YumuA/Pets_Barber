@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "petsapp" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "petsapp" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "petsapp.exe" "\0"
             VALUE "ProductName", "petsapp" "\0"
+=======
+            VALUE "FileDescription", "app_petsbarber" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "app_petsbarber" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "app_petsbarber.exe" "\0"
+            VALUE "ProductName", "app_petsbarber" "\0"
+>>>>>>> 457e236dfd659ffff8b0b7846aa9371919125d5d
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="petsapp"
+=======
+        android:label="app_petsbarber"
+>>>>>>> 457e236dfd659ffff8b0b7846aa9371919125d5d
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

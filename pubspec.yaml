@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: petsapp
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
@@ -17,20 +18,30 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
+=======
+name: app_petsbarber
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+>>>>>>> 457e236dfd659ffff8b0b7846aa9371919125d5d
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
 
+<<<<<<< HEAD
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+=======
+>>>>>>> 457e236dfd659ffff8b0b7846aa9371919125d5d
 dependencies:
   flutter:
     sdk: flutter
 
+<<<<<<< HEAD
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -91,3 +102,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+=======
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+>>>>>>> 457e236dfd659ffff8b0b7846aa9371919125d5d
